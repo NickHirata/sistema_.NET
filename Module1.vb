@@ -268,7 +268,7 @@
 
             End With
         Catch ex As Exception
-
+            MsgBox("Erro", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ATENÇÃO")
         End Try
     End Sub
     Sub carregar_dados()
